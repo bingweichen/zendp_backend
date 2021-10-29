@@ -110,7 +110,9 @@ class ImagesResource(Resource):
             url_mapping = {
                 'development': 'http://localhost:5000/api/image/images',
                 # 'online_test': 'http://test.jxcjxc.com/api/image/images',
-                'production': 'http://www.zendp.com/api/image/images'
+
+                # http://zendp.jxcjxc.com/api/image/images/1
+                'production': 'http://zendp.jxcjxc.com/api/image/images'
             }
 
             new_image.url = '{}/{}'.format(
