@@ -1,0 +1,17 @@
+Flask==1.1.2
+flask_sqlalchemy==2.4.4
+flask_migrate==2.5.3
+flask_script
+flask-restplus
+PyJWT==1.4.2
+flask-records
+cookiecutter
+Werkzeug==0.16.1
+flask_cors
+pandas
+xlrd==1.2.0
+redis
+aliyun-python-sdk-core-v3
+pypinyin
+celery==4.4.1
+
