@@ -4,7 +4,7 @@
 
 server {
     listen 80;
-    server_name www.zendp.com;
+    server_name www.zendp.cn;
     # gzip config
     gzip on;
     gzip_min_length 1k;
@@ -19,7 +19,7 @@ server {
         # 用于配合 browserHistory使用
         try_files $uri $uri/ /index.html;
     }
-    
+    ``
     location /api {
         proxy_pass http://localhost:5050;
         proxy_set_header   X-Forwarded-Proto $scheme;
