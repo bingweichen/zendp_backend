@@ -14,9 +14,9 @@ import os
 from app import create_app, make_celery
 
 config_name = os.getenv('FLASK_ENV') or 'default'
-app = create_app(config_name)
+# app = create_app(config_name)
 # app = create_app('online_test')
-# app = create_app('production')
+app = create_app('production')
 
 print("config_name", config_name)
 print('app.name', app.name)

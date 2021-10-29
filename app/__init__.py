@@ -24,6 +24,7 @@ from app.user.controller import api as user_ns
 from app.object.controller import api as object_ns
 from app.comment.controller import api as comment_ns
 from app.category.controller import api as category_ns
+from app.image.controller import api as image_ns
 
 from config import config
 from exts import db
@@ -74,6 +75,7 @@ api.add_namespace(user_ns, path='/user')
 api.add_namespace(object_ns, path='/object')
 api.add_namespace(comment_ns, path='/comment')
 api.add_namespace(category_ns, path='/category')
+api.add_namespace(image_ns, path='/image')
 
 
 def create_app(config_name):

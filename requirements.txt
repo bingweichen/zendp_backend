@@ -1,6 +1,6 @@
 Flask==1.1.2
 flask_sqlalchemy==2.4.4
-flask_migrate
+flask_migrate==2.5.3
 flask_script
 flask-restplus
 PyJWT==1.4.2

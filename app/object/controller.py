@@ -32,6 +32,7 @@ object_model = api.model('object', {
     'creator': fields.Nested(user_model),
     'rate': fields.Float(),
     'category': fields.Nested(category_model),
+    'image_url': fields.String(description='image_url'),
 
 })
 

@@ -1,9 +1,9 @@
 #  极简点评网
-极简点评网：万物皆可评
-
-1. 前端项目地址
-2. 后端项目地址
-3. 网站地址：www.zendp.cn
+                    极简点评网：万物皆可评
+                    
+                    1. 前端项目地址 https://github.com/bingweichen/zendp_frontend
+                    2. 后端项目地址 https://github.com/bingweichen/zendp_backend
+                    3. 网站地址：www.zendp.cn
 
 
 # overview
@@ -99,9 +99,11 @@ keys *
 
 # 5. Q&A
 #### 无法启动redis
+```shell
 docker ps -a -q
 找到container
 docker rm 8cb8e
 删除container
 
 docker start 
+```

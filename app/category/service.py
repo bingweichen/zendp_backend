@@ -46,8 +46,8 @@ class Service:
 if __name__ == "__main__":
     from app import create_app
 
-    app = create_app("default")
+    # app = create_app("default")
     # app = create_app("online_test")
-    # app = create_app("production")
+    app = create_app("production")
     with app.app_context():
         Service.init()
