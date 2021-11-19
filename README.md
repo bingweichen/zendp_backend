@@ -3,7 +3,7 @@
                     
                     1. 前端项目地址 https://github.com/bingweichen/zendp_frontend
                     2. 后端项目地址 https://github.com/bingweichen/zendp_backend
-                    3. 网站地址：www.zendp.cn
+                    3. 网站地址：zendp.jxcjxc.com ( www.zendp.cn 未启用 )
 
 
 # overview
